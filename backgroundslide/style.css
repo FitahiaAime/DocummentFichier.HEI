@@ -1,0 +1,17 @@
+.img {
+  background-image: url(./img1.png);
+  background-position: 200px;
+  /* display: flex;
+  justify-content: center; */
+  animation: slide 20s infinite;
+  transition: all 2s;
+}
+@keyframes slide {
+  0% {
+    background-image: url(img2.png);
+  }
+
+  50% {
+    background-image: url(img3.jpg);
+  }
+}
