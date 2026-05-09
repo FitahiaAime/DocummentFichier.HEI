@@ -1,0 +1,268 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+} 
+
+/* * {
+    margin: 0;
+} */
+.backM {
+    background-image:url("./image/cropped-diadema.jpg");
+    background-size: cover;
+    background-position:  10% 25%;
+    height: 200px;
+    background-repeat: no-repeat;
+    width: 80vw;
+    border-radius: 5px;
+    line-height: 3;
+    width: 94%;
+    margin: 15px 35px;
+    padding: 15px;
+    box-shadow: 1px 10px 10px grey;
+    overflow: hidden;
+    animation: up 3s forwards;
+}
+
+@keyframes up {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 10% 25%;
+    }
+}
+.backM p {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .backM P {
+    text-align: justify;
+    padding: 3% 1%;
+    font-size: 18px;
+    color: red;
+} */
+
+.Navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 30px 35px;
+    width: 94%;
+    list-style: none;
+    text-decoration: none;
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 8px 8px 10px grey;
+}
+
+.Navbar a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.yellow {
+    border: none;
+    height: 5px;
+    border-radius: 100px;
+    background-color: yellow;
+    animation: horizontal 2s alternate infinite;
+}
+
+.Red {
+    border: none;
+    height: 5px;
+    border-radius: 100px;
+    background-color: red;
+    animation: horizontal 2s alternate infinite;
+}
+/* center animation en div  */
+ 
+.Navbar ul li {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}  
+@keyframes horizontal {
+    0% {
+        width: 10%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+ .contain {
+    display: flex;
+    flex-direction: row;
+}  
+
+.sary1 {
+    display: block;
+    max-width: 80%;
+    text-align:justify;
+    /* border: 1px solid gray; */
+    text-align: center;
+    line-height: 2.5;
+    margin: 15px 38px;
+    width: 900px;
+    height: 300px;
+    padding: 10px 10px;
+    overflow:hidden;
+    box-shadow: 3px 3px 5px gray;
+    font-size: 18px;
+    animation: 1.2s ease-in-out;
+    transition: all 0.5s;
+}
+.sary1:hover{  
+    scale: 1.1;
+}
+
+@keyframes pop {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1); }
+  70%  { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+.sary1 {
+  animation: pop 700ms cubic-bezier(.2,.9,.3,1) both;
+}
+.sary2 {
+    display: block;
+    /* border: 1px solid gray; */
+    max-width: 50%;
+    margin:15px 1px;
+    text-align: center;
+    height: 317px;
+    padding: 1px 10px;
+    line-height: 3.6;
+    width: 360px;
+    box-shadow: 3px 3px 5px gray;
+    animation: 1.2s ease-in-out ;
+    overflow: hidden;
+    transition: all 0.5s;
+    
+}
+
+.sary2 p {
+    font-size: 20px;
+    font-weight: 500;
+}
+ 
+.sary2:hover{  
+    scale: 1.1 ;
+}
+@keyframes poo {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.1); }
+  70%  { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+
+
+.sary2 {
+  animation: poo 700ms cubic-bezier(.2,.9,.3,1) both;
+}
+
+.sary3 {
+    display: block;
+    /* border: 1px solid gray; */
+    margin:16px 68px;
+    margin-right: 26px;
+    text-align: center;
+    line-height: 2.5;
+    padding: 1px 10px;
+    width: 355px;
+    height: 318px;
+    margin-left: 35px;
+    box-shadow: 3px 3px 5px gray;
+    overflow: hidden;
+    animation: 1.2s ease-in-out ;
+    transition: all 0.5s;
+}   
+.sary3:hover{  
+    scale: 1.1;
+}
+.sary3 p {
+    font-size: 20px;
+    font-weight: 500;
+}
+@keyframes poox {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1); }
+  70%  { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+.sary3 {
+  animation: poox 700ms cubic-bezier(.2,.9,.3,1) both;
+}
+
+.Taniko {
+    border: 1px solid rgb(201, 200, 200); 
+    width: 95%;
+    height: 200px;
+    margin: 15px 10px;
+    line-height: 2.5;
+    padding: 8px;
+    margin-left: 35px;
+    box-shadow: 3px 0px 5px gray;
+}
+
+.Taniko1 {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 500px;
+}
+.Taniko2 {
+    display: block;
+    text-align: center;
+    padding: 10px 500px;
+    font-size: 18px;
+}
+.Taniko1 p {
+    color: red;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.Taniko2  button {
+    padding: 10px 15px;
+}
+
+
+/* .Navbar .aaa {
+  position: relative;
+  padding-bottom: 4px; /* espace pour la barre */
+/* }
+.Navbar .aaa::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 39%;
+  background-color: #3498db; */
+
+  /* animation continue */
+  /* animation: slide 2s linear infinite;
+}
+
+@keyframes slide {
+  0% { transform: translateX(100%); }
+  50% { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+} */ 
+
+/* @keyframes rotateFade {
+  0%   { transform: rotate(0deg) translateY(0); opacity: 1; }
+  50%  { transform: rotate(180deg) translateY(-20px); opacity: 0.6; }
+  100% { transform: rotate(360deg) translateY(0); opacity: 1; }
+} */
