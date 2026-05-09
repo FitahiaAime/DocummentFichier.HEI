@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-image: url("./image");
+    /* background-image: url("./image Soniah/image/logo.png"); */
+    background-size: cover;
+}
