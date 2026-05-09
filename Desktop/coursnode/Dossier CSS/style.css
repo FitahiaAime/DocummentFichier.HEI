@@ -1,0 +1,61 @@
+/* 1. définir les keyframes */
+/* @keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+} */
+
+/* 2. appliquer à un élément */
+/* .card {
+  animation-name: fadeIn;
+  animation-duration: 600ms;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both; /* conserve l'état final */
+/* }
+.card {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+}  */
+
+/* @keyframes slideRight {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(120px); }
+  100% { transform: translateX(0); }
+}
+
+.card {
+  animation: slideRight 1.6s ease-in-out infinite;
+}
+.card {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+}  */
+
+
+/* @keyframes pop {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.15); }
+  70%  { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+.card {
+  animation: pop 700ms cubic-bezier(.2,.9,.3,1) both;
+}
+.card {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+}  */
+
+.box {
+  width: 100px; height: 100px; background: #ff8; margin: 40px;
+  animation: rotateFade 1.2s ease-in-out ;
+}
+
+@keyframes rotateFade {
+  0%   { transform: rotate(0deg) translateY(0); opacity: 1; }
+  50%  { transform: rotate(180deg) translateY(-20px); opacity: 0.6; }
+  100% { transform: rotate(360deg) translateY(0); opacity: 1; }
+}
