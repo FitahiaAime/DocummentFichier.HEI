@@ -1,0 +1,73 @@
+/* .way {
+    background-image: url("sovaly.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 80%;
+    background-attachment: scroll;
+    margin-left: 20%;
+} */
+
+/* .way { */
+    /* display: block;
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 20%;
+    width: 100%;
+    border: 2px solid black;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.waw {
+    display: block;
+    border: 1px solid red;
+    line-height: 1.2;
+    max-width: 20%;
+
+} */
+/* 
+.WAY {
+    border: 2px solid black;
+    width: 50px;
+    height: 15px;
+}
+
+.yes {
+    display: flex;
+    gap: 20px;
+    margin: 20px 20px;
+}
+
+.yes:hover {
+      transform: translateY(-20px);
+    color: blue;
+} */
+
+
+.titre {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px; /* espace pour la barre */
+  font-size: 24px;
+}
+
+/* barre animée */
+.titre::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 50%;
+  background-color: #3498db;
+
+  /* animation continue */
+  animation: slide 2s linear infinite;
+}
+
+/* keyframes pour faire glisser la barre */
+@keyframes slide {
+  0% { transform: translateX(100%); }
+  50% { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
